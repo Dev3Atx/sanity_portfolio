@@ -16,5 +16,7 @@
     "titleBar.inactiveForeground": "#15202b99"
   },
   "peacock.color": "#bcb87d",
-  "git.ignoreLimitWarning": true
+  "git.ignoreLimitWarning": true,
+  "editor.formatOnSave": true,
+  "editor.fontWeight": null
 }
