@@ -15,7 +15,7 @@ export default function Home() {
 			/>
 			<section className="relative flex justify-center min-h-screen pt-12 lg:pt-64 px-8">
 				<h1 className="text-6xl text-gray-100 font-bold leading-none lg:leading-snug home-name">
-					Hello Friend,<br></br>I'm Tony.
+					Hello Friend.
 				</h1>
 			</section>
 		</main>
