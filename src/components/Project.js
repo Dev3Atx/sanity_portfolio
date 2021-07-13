@@ -12,6 +12,7 @@ export default function Project() {
 			description,
 			projectType,
 			link,
+			git,
 			tags
 		}`).then((data) => setProjectData(data))
 		.catch(console.error);
@@ -39,7 +40,7 @@ export default function Project() {
 								</h3>
 								<div className="text-gray-500 text-xs space-x-4">
 									<span>
-										<strong className="font-bold">Finshed on</strong>:{" "}
+										<strong className="font-bold">Finished on</strong>:{" "}
 										{new Date(project.date).toLocaleDateString()}
 									</span>
 									<span>
@@ -57,9 +58,20 @@ export default function Project() {
 										href={project.link}
 										rel="noopener noreferrer"
 										target="_blank"
-										className="text-gray-500 font-bold hover:underline hover:text-gray-400"
+										className="text-gray-500 font-bold hover:underline hover:text-gray-400 text-xl"
 									>
 										View the Project{" "}
+										<span role="img" aria-label="right pointer">
+											👉
+										</span>
+									</a>
+									<a
+										href={project.git}
+										rel="noopener noreferrer"
+										target="_blank"
+										className="text-gray-500 font-bold hover:underline hover:text-gray-400 text-xl"
+									>
+										View the Code{" "}
 										<span role="img" aria-label="right pointer">
 											👉
 										</span>
