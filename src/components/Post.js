@@ -27,9 +27,9 @@ export default function Post() {
 	return (
 		<main className="bg-gray-100 min-h-screen p-12">
 			<section className="container mx-auto">
-				<h1 className="text-5xl flex justify-center">In Development</h1>
-				<h2 className="text-lg text-gray-600 flex justify-center mb-12">
-					Here are some projects I am currently working on.
+				<h1 className="text-5xl flex justify-center">In Development</h1><br></br>
+				<h2 className="text-lg text-gray-00 flex justify-center mb-12">
+					Here are some projects I'm currently working on.
 				</h2>
 				<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 					{postData &&
@@ -49,7 +49,7 @@ export default function Post() {
 											className="w-full h-full rounded-r object-cover absolute"
 										/>
 										<span className="block relative h-full flex justify-end items-end pr-4 pb-4">
-											<h3 className="text-gray-800 text-lg font-blog px-3 py-4 bg-gray-700 text-red-100 bg-opacity-75 rounded">
+											<h3 className="text-gray-800 text-lg font-blog px-3 py-4 bg-gray-700 text-blue-100 bg-opacity-75 rounded">
 												{post.title}
 											</h3>
 										</span>

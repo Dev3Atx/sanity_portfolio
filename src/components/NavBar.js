@@ -13,14 +13,7 @@ export default function NavBar() {
 						activeClassName="text-white"
 						className="inflex-flex items-center py-6 px-3 mr-4 text-gray-100 hover:text-gray-800 text-4xl font-bold tracking-widest"
 					>
-						Dev3
-					</NavLink>
-					<NavLink
-						to="/post"
-						className="inflex-flex items-center py-3 px-3 my-6 rounded text-gray-200 hover:text-gray-800"
-						activeClassName="text-gray-100 bg-gray-700"
-					>
-						CV
+						Dev_3
 					</NavLink>
 					<NavLink
 						to="/project"
@@ -34,7 +27,14 @@ export default function NavBar() {
 						className="inflex-flex items-center py-3 px-3 my-6 rounded text-gray-200 hover:text-gray-800"
 						activeClassName="text-gray-100 bg-gray-700"
 					>
-						About Me!
+						About
+					</NavLink>
+					<NavLink
+						to="/post"
+						className="inflex-flex items-center py-3 px-3 my-6 rounded text-gray-200 hover:text-gray-800"
+						activeClassName="text-gray-100 bg-gray-700"
+					>
+						Pipeline
 					</NavLink>
 				</nav>
 				<div className="inline-flex py-3 px-3 my-6">
