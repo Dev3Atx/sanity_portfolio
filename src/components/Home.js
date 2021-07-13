@@ -14,8 +14,8 @@ export default function Home() {
 				h-full"
 			/>
 			<section className="relative flex justify-center min-h-screen pt-12 lg:pt-64 px-8">
-				<h1 className="text-6xl text-gray-100 font-bold leading-none lg:leading-snug home-name">
-					Hello Friend,<br></br>I'm Tony.
+				<h1 className="text-6xl text-gray-100 font-extrabold leading-none lg:leading-snug home-name ">
+					Hello Friend.
 				</h1>
 			</section>
 		</main>
